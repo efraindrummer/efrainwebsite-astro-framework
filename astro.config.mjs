@@ -7,5 +7,10 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://uses.efraindev.netlify.app/',
-  integrations: [sitemap(), react(), image(), tailwind()]
+  integrations: [
+    sitemap(), 
+    react(), 
+    image(), 
+    tailwind()
+  ]
 });
